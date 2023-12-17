@@ -88,9 +88,7 @@ const App = () => {
                   <h3>{movie.title}</h3>
                   <p>Genre: {movie.genre_ids.join(", ")}</p>
                   <p>Release Date: {movie.release_date}</p>{" "}
-                  {/* Replace with actual cast data */}
                   <p>Language: {movie.original_language}</p>{" "}
-                  {/* Replace with actual director data */}
                   <p>{movie.overview}</p>
                 </div>
               </div>
